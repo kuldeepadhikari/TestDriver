@@ -1,2 +1,2 @@
 # TestDriver
-TestDriver for basic function for testing and learning
+TestDriver for basic functional testing and learning
