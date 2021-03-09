@@ -21,7 +21,7 @@ public class GoogleHomePage {
         this.driver = driver;
         GetPropertyValues propertyValues=new GetPropertyValues();
         try {
-            String page = propertyValues.getPropValues(System.getProperty("environment"), "GoogleHomeURL");
+            String page = propertyValues.getPropValues(System.getProperty("Env"), "GoogleHomeURL");
             driver.get(page);
         }catch (Exception e){e.printStackTrace();}
         PageFactory.initElements(driver, this);
