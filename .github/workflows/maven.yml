@@ -26,4 +26,4 @@ jobs:
        chmod +x ./scripts/InstallChrome.sh
         ./scripts/InstallChrome.sh
     - name: Build with Maven
-      run: mvn -B package --file pom.xml -ea -Dbrowser=chrome -DEnv=qa
+      run: mvn -B package --file pom.xml -Dbrowser=chrome -DEnv=qa
