@@ -5,9 +5,9 @@ name: Java CI with Maven and selenium
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, cucumber-java ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, cucumber-java ]
 
 jobs:
   build:
